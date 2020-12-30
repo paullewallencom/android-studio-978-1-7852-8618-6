@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal" android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/thoughts_kpi_count"
+        android:text="0 thoughts"
+        android:textSize="32sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/thoughts_kpi_avg_happiness"
+        android:text="@string/average_happiness"
+        android:textSize="32sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RatingBar
+        android:id="@+id/thoughts_rating_bar_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:numStars="5"
+        android:rating="0" />
+</LinearLayout>

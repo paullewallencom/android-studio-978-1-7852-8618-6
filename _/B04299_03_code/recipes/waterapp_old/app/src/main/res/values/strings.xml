@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">wateryou</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+   <!-- 110 -->
+    <string name="transition_preview">transition_preview</string>
+</resources>

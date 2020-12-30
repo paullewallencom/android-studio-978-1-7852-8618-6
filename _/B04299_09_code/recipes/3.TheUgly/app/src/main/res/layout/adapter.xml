@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_marginTop="8dp"
+        android:layout_width="80dp"
+        android:scaleType="fitCenter"
+        android:layout_height="60dp" />
+
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/main_text_title"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/main_image"
+        android:background="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/main_text_year"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/main_image"
+        android:layout_below="@+id/main_text_title"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/main_text_genre"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/main_image"
+        android:layout_below="@+id/main_text_year"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/main_text_director"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/main_image"
+        android:layout_below="@+id/main_text_genre"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/main_text_actors"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/main_image"
+        android:layout_below="@+id/main_text_director"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

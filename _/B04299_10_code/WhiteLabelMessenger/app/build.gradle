@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId 'packt.com.whitelabelmessenger'
+        minSdkVersion 21
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix 'debug'
+        }
+    }
+    productFlavors {
+        blueFlavor {
+            minSdkVersion 21
+            applicationId 'packt.com.whitelabelmessenger.blue'
+            targetSdkVersion 21
+            versionCode 1
+            versionName '1.0'
+        }
+        greenFlavor {
+            minSdkVersion 21
+            applicationId 'packt.com.whitelabelmessenger.green'
+            targetSdkVersion 21
+            versionCode 1
+            versionName '1.0'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

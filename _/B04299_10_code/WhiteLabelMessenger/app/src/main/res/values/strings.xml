@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhiteLabelMessenger</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_send">SEND YEAH!</string>
+    <string name="phone_number">Your phone number</string>
+    <string name="yeah">Y-E-A-H</string>
+    <string name="really_send_sms">NO</string>
+
+</resources>

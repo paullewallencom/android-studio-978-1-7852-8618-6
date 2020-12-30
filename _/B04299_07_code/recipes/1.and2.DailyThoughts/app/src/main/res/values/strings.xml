@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DailyThoughts</string>
+
+    <string name="title_section_daily_notes">Daily thoughts</string>
+    <string name="title_section_note_list">Thoughts list</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add">Add thought</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="my_thoughts">My thoughts</string>
+    <string name="save">Save</string>
+    <string name="average_happiness">Average happiness</string>
+
+
+</resources>

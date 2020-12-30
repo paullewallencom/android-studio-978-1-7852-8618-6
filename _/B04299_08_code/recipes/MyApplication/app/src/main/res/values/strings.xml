@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GetItRight</string>
+    <string name="app_id">1002904336418</string>
+
+    <string name="incorrect_answer">That is incorrect</string>
+    <string name="correct_answer">That is the correct answer!</string>
+    <string name="leader_board">LEADER BOARD</string>
+</resources>
